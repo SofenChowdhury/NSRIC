@@ -1,0 +1,15 @@
+{
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.js",
+  "/companies/createCompany": "pages/companies/createCompany.js",
+  "/_app": "pages/_app.js",
+  "/home": "pages/home.js",
+  "/": "pages/index.js",
+  "/login": "pages/login.js",
+  "/users/updateUser/[id]": "pages/users/updateUser/[id].js",
+  "/theme": "pages/theme.js",
+  "/users/userList": "pages/users/userList.js",
+  "/register": "pages/register.js",
+  "/users/createUser": "pages/users/createUser.js"
+}
