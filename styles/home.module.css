@@ -1,0 +1,311 @@
+/* Home page start  */
+@media screen and (max-width: 576px) {
+
+ /* Header part start  */
+
+.navbar-toggler{
+    left: 10px;
+    top: 20px;
+    background: #fff !important;
+    font-size: 10px;
+}
+.navbernav{
+    padding: 10px;
+    margin-top: 5px;
+}
+.backgroundcolor{
+    background: red;
+    margin-top: 20px;
+    padding: 10px;
+}
+.changcolor{
+    color: #fff;
+    background: #fff !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #000; 
+	font-size: 10px;
+	font-weight: 500;
+	font-family: "Roboto", "sans-serif";
+	padding-right: 10px;
+	text-decoration: none;
+}
+.header_icon{
+    margin-top: 20px !important;
+}
+.searchIcon{
+    margin-right: 2px !important;
+}
+.facebookIcon{
+    margin-right: 10px !important;
+}
+.twitterIcon{
+    margin-right: 10px !important;
+}
+.linkedinIcon{
+    margin-right: 10px !important;
+}
+.youtubeIcon{
+    margin-right: 10px !important;
+}
+.telegramIcon{
+    margin-right: 10px !important;
+}
+.instagram{
+    margin-right: 14px ;
+    
+}
+.blog{
+    margin: 0 auto !important;
+}
+.first_drop{
+    margin-top: 0px !important;
+}
+
+
+.instagram{
+    margin-right: 6px !important;
+}
+
+.navbar-nav .nav-item{
+    color: #000;
+}
+
+ /* Header part header */
+ /* Logo part start  */
+ 
+.logo_img{
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.logo_img img {
+	width: 199px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.local_time{
+    margin-top: 80px;
+}
+
+ /* Logo part end  */
+ /* Mission part start  */
+.mission_part{
+       display: block !important;
+}
+.mission_item{
+    width: 100% !important;
+}
+
+.mission_text h3{
+    width: 150px !important;
+    padding-left: 10px;
+    margin-top: 0px !important;
+} 
+.mission_text p{
+    width: 300px !important;
+    text-align: justify;
+    padding: 10px 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+ /* Mission part end  */
+ /* Primary service part start  */
+
+.primary_service_head::after {
+	
+	background: transparent !important;
+	
+}
+.primary_service_head::before {
+	
+
+	background: transparent !important;
+
+}
+/* Primary service part end  */
+/* Footer service part start  */
+.foter_text_two h3{
+    margin-top: 20px;
+}
+.footer_privacy{
+    display: block;
+}
+/* Footer service part end  */
+}
+/* ================================================================= Medium part start ============================================================ */
+@media screen and (max-width: 768px) {
+.navbar-toggler{
+    left: 10px;
+    top: 20px;
+    background: #fff !important;
+    font-size: 10px;
+}
+.navbar-nav{
+    padding: 10px;
+    margin-top: 5px;
+}
+.backgroundcolor{
+    background: red;
+    margin-top: 20px;
+    padding: 10px;
+}
+.changcolor{
+    color: #fff;
+    background: #fff !important;
+}
+.header_icon{
+    margin-top: 20px !important;
+}
+.searchIcon{
+    margin-right: 2px !important;
+}
+.facebookIcon{
+    margin-right: 10px !important;
+    
+}
+.twitterIcon{
+    margin-right: 10px !important;
+}
+.linkedinIcon{
+    margin-right: 10px !important;
+}
+.youtubeIcon{
+    margin-right: 10px !important;
+}
+.telegramIcon{
+    margin-right: 10px !important;
+}
+.instagram{
+    margin-right: 14px !important;
+}
+.blog{
+    margin-left: 1px !important;
+}
+.first_drop{
+    margin-top: 0px !important;
+}
+
+.navbar-collapse{
+   background: red;
+   margin-top: 10px !important;
+}
+.instagram{
+    margin-right: 6px !important;
+}
+
+.navbar-nav .nav-item{
+    color: #000;
+}
+.registration{
+    padding: 0;
+    margin: 0;
+}
+/* Navber start here  */
+.service_dropdown{
+   max-width: 0;
+   padding: 0;
+}
+.backgroundcolornav{
+    background: #42A5F5;
+    margin-top: 20px;
+    padding: 10px;
+}
+.changcolor{
+    color: #fff;
+    background: #fff !important;
+}
+ /* Logo part start  */
+ 
+.logo_img{
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.logo_img img {
+	width: 250px;
+}
+
+
+ /* Logo part end  */
+ /* Priamry service part start  */
+ .primary_service_head p{
+    font-size: 24px !important;
+ }
+.primary_service_head::after {
+	
+	background: transparent !important;
+	
+}
+.primary_service_head::before {
+	
+
+	background: transparent !important;
+
+}
+/* Priamry service part end  */
+/* mission_text page design  start*/
+ .mission_part{
+    display: block !important;
+}
+.mission_item{
+    width: 100% !important;
+}
+
+.mission_text p{
+    width: 550px;
+    padding: 0 10px;
+} 
+ /* mission_text page design  end*/
+}
+/* ==================================== Large device ================================================================= */
+@media screen and (max-width: 992px){
+.navfontsize{
+    font-size: 11px !important;
+}
+.registration{
+    font-size: 11px !important;
+}
+.searchIcon{
+    margin-right: 5px !important;
+    font-size: 20px !important;
+}
+.facebookIcon{
+    margin-right: 5px !important;
+      font-size: 15px !important;
+}
+.twitterIcon{
+    margin-right: 5px !important;
+}
+.linkedinIcon{
+    margin-right: 5px !important;
+}
+.youtubeIcon{
+    margin-right: 5px !important;
+}
+.telegramIcon{
+    margin-right: 5px !important;
+}
+.instagram{
+    margin-right: 6px !important;
+}
+.blog{
+    margin-left: 4px !important;
+}
+
+.instagram{
+    margin-right: 6px !important;
+}
+/* mission_text page design  start*/
+ .mission_part{
+    display: block !important;
+}
+.mission_item{
+    width: 100% !important;
+}
+
+.mission_text p{
+    width: 550px;
+    padding: 0 10px;
+} 
+ /* mission_text page design  end*/
+}

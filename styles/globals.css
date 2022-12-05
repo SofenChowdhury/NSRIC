@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+.app {
+  display: flex;
+  position: relative;
+  background: rgb(230, 228, 228);
+  height: 100vh;
+}
+
+.holder {
+  margin: 18px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #555;
+}
+
+
+/* Home css are here  */
+
+.navColor {
+  color: #fff;
+
+}
+.Navbar.Collapse{
+  background: #000;
+}
+.first_drop{
+  color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+     color: #000;
+     font-size: 15;
+     font-weight: 500;
+     font-family: "Roboto", "sans-serif";
+     padding-right: 10px;
+     text-decoration: none;
+}
+/* .navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #fff;
+}  */
+.dropdown-item {
+    background: #fff;
+    border: none;
+     color: #fff;
+     padding: 13px 32px 13px 10px;
+     font-weight: 500; 
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: #000;
+    padding: 0;
+    border: none;
+}
+
+#collasible-nav-dropdownn{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.dropdown:hover>.dropdown-menu{
+   display: block;
+}
+.dropdown-item:hover{
+  color: #fff;
+     background: #55595C;
+}
+.dropdown-item {
+    background: #fff;
+    border: none;
+    color: #000;
+    padding: 13px 32px 13px 10px;
+    font-weight: 500;
+}
+.privacy_img{
+  width: 100px;
+}
+
+/* ========= TopFooter part  ========= */
+.foter_text a{
+  display: block;
+  color:#fff;
+  font-size:15px;
+  text-decoration:none;
+  line-height:30px;
+  font-weight:400;
+  position:relative;
+}
+.foter_text a::after {
+  position: absolute;
+  width: 500px;
+  height: 3px;
+  content: ' ';
+  background: #1A5DC8;
+  bottom: 0;
+  left: -36px;
+  visibility: hidden;
+  opacity: 0;
+}
+.foter_text a:hover:after{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+.foter_text a:hover{
+  color: #fff;
+}
+/* ==============  */
+.foter_text_two a{
+ display: block;
+  color:#fff;
+  font-size:15px;
+  text-decoration:none;
+  line-height:30px;
+  font-weight:400;
+  position:relative;
+}
+.foter_text_two a::after {
+  position: absolute;
+  width: 200px;
+  height: 3px;
+  content: ' ';
+  background: #1A5DC8;
+  bottom: 0;
+  left: -36px;
+  visibility: hidden;
+  opacity: 0;
+}
+.foter_text_two a:hover:after{
+  visibility: visible;
+  opacity: 1;
+}
+.foter_text_two a:hover{
+  color: #fff;
+}
+.footer_text_three a::after {
+  position: absolute;
+  width: 300px;
+  height: 3px;
+  content: ' ';
+  background: #1A5DC8;
+  bottom: 0;
+  left: -36px;
+  visibility: hidden;
+  opacity: 0;
+}
+.foter_text p{
+  color:#fff;
+  font-size:16px;
+  text-decoration:none;
+  line-height:26px;
+  font-weight:400;
+}
+ .footer1{
+  background:#1A5DC8;
+  padding-top:30px;
+  padding-bottom:40px;
+}
+
+
+/* ========= TopFooter part  ========= */
+
+
+
+
+
